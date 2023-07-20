@@ -1,0 +1,137 @@
+.face{
+    background-color: yellow;
+    position: relative;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    margin: 30%;
+}
+.lefteye1{
+    background-color: lightskyblue;
+    position: absolute;
+    left: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: -105px;
+
+}
+.lefteye2{
+    background-color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+.lefteye3{
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0;
+
+}
+.righteye1{
+    background-color: lightskyblue;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left:180px;
+    margin-top: -10px;
+
+}
+.righteye2{
+    background-color: black;
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0;
+
+}
+.righteye3{
+    background-color: white;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0;
+
+}
+.nose{
+    background-color: black;
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    margin-top: 130px;
+    margin-left:-70px;
+
+}
+.mouth{
+    background-color:red;
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    border-radius: 7px 7px 50px 50px;
+    display: flex;
+    align-items: center;
+    margin-left: -110px;
+    margin-top: 300px;
+    overflow: hidden;
+}
+.tongue{
+    background-color:rgb(255, 136, 0);
+    position: absolute;
+    top: 20px;
+    height: 60px;
+    width: 100px;
+    border-radius:  100px 100px 0 0;
+    align-items: center;
+}
+.mole{
+    background-color:rgb(255, 136, 0);
+    position: absolute;
+    top: 71px;
+    left: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius:  100%;
+    align-items: center;
+    box-shadow: 0px 0px 8px 8px rgb(255, 136, 0);
+}
+.mole1{
+    background-color:rgb(255, 136, 0);
+    position: absolute;
+    top: 71px;
+    right: 170px;
+    height: 50px;
+    width: 50px;
+    border-radius:  100%;
+    box-shadow: 0px 0px 8px 8px rgb(255, 136, 0);
+}
